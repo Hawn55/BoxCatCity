@@ -1,0 +1,12 @@
+Cat/Library/
+Cat/Temp/
+Cat/.vs/Cat/v15/.suo
+Cat/.vs/Cat/v15/Server/sqlite3/db.lock
+Cat/.vs/Cat/v15/Server/sqlite3/storage.ide
+Cat/.vs/Cat/v15/Server/sqlite3/storage.ide-shm
+Cat/.vs/Cat/v15/Server/sqlite3/storage.ide-wal
+Cat/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
+Cat/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+Cat/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+Cat/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+Cat/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
