@@ -62,8 +62,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CatController.cs" />
     <Compile Include="Assets\Scripts\City\CityController.cs" />
+    <Compile Include="Assets\Scripts\FadeInOut.cs" />
+    <Compile Include="Assets\Scripts\FoodController.cs" />
+    <Compile Include="Assets\Scripts\GoalController.cs" />
+    <Compile Include="Assets\Scripts\Search.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\StageContller.cs" />
+    <Compile Include="Assets\Scripts\StaticRunTime.cs" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\Fonts\NikumaruFont\ReadMe_Windows.txt" />
     <None Include="Assets\Fonts\NikumaruFont\ReadMe_Mac.txt" />
