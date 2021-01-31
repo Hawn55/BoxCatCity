@@ -37,7 +37,13 @@ public class CityController : MonoBehaviour
     GameObject m_StageIcon;
 
     [SerializeField]
+    GameObject m_StageIconB;
+
+    [SerializeField]
     Animator m_Panel;
+
+    [SerializeField]
+    Animator m_Panel2;
 
     void Start()
     {
@@ -90,11 +96,17 @@ public class CityController : MonoBehaviour
         yield return new WaitForSeconds( 2f );
 
         m_StageIcon.SetActive( true );
+        m_StageIconB.SetActive( true );
     }
 
     public void OnIconTap()
     {
         m_Panel.enabled = true;
+    }
+
+    public void OnIconTap2()
+    {
+        m_Panel2.enabled = true;
     }
 
     public void OnStageTap()
