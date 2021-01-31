@@ -9,7 +9,7 @@ public class Search : MonoBehaviour
 
     void OnTriggerEnter( Collider other )
     {
-        if( other.tag == "Food" )
+        if( other.tag == "Food" || ( m_CatController.tag == "Enemy" && other.tag == "Player" ) )
         {
             m_CatController.m_Goal = other.transform;
         }

@@ -41,6 +41,8 @@ public class CityController : MonoBehaviour
 
     void Start()
     {
+        Screen.SetResolution( 1280, 800, false, 60 );
+
         m_TapArea.gameObject.SetActive( false );
 
         if( StaticRunTime.stage == 0 )
